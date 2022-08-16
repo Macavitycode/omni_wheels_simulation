@@ -10,9 +10,9 @@ project(omni_wheel_control)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
-  velocity-controllers
-  controller-manager
-  joint-state-controller
+  velocity_controllers
+  controller_manager
+  joint_state_controller
 )
 
 ## System dependencies are found with CMake's conventions
